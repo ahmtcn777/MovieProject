@@ -1,0 +1,11 @@
+.header{
+    width: 100%;
+    border-bottom: 1px solid #76859c;
+    padding: 5px 0px;
+}
+.card{
+    margin-top: 10px;
+}
+.card img{
+    height:50px;
+}

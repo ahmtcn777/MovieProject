@@ -1,0 +1,298 @@
+
+[2019-12-09 18:10:11] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 101, in searchMovie
+    searchResults(searchKey(key))
+  File "c:/temp/imdb/app.py", line 105, in searchResults
+    browser.ExecuteFunction("searchResults", movies)
+  File "browser.pyx", line 407, in cefpython_py37.PyBrowser.ExecuteFunction
+  File "frame.pyx", line 162, in cefpython_py37.PyFrame.ExecuteFunction
+  File "c:\users\administrator\python\python37\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Movie is not JSON serializable
+
+
+[2019-12-09 18:10:51] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 101, in searchMovie
+    searchResults(searchKey(key))
+  File "c:/temp/imdb/app.py", line 105, in searchResults
+    browser.ExecuteFunction("searchResults", movies)
+  File "browser.pyx", line 407, in cefpython_py37.PyBrowser.ExecuteFunction
+  File "frame.pyx", line 162, in cefpython_py37.PyFrame.ExecuteFunction
+  File "c:\users\administrator\python\python37\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Movie is not JSON serializable
+
+
+[2019-12-09 18:14:56] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 101, in searchMovie
+    searchResults(searchKey(key))
+  File "c:/temp/imdb/app.py", line 105, in searchResults
+    browser.ExecuteFunction("searchResults", movies)
+  File "browser.pyx", line 407, in cefpython_py37.PyBrowser.ExecuteFunction
+  File "frame.pyx", line 162, in cefpython_py37.PyFrame.ExecuteFunction
+  File "c:\users\administrator\python\python37\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Movie is not JSON serializable
+
+
+[2019-12-09 18:16:42] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 101, in searchMovie
+    searchResults(searchKey(key))
+  File "c:\temp\imdb\search.py", line 50, in searchKey
+    return json.dumps(movies)
+  File "c:\users\administrator\python\python37\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Movie is not JSON serializable
+
+
+[2019-12-09 18:17:46] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 101, in searchMovie
+    print(searchKey(key))
+  File "c:\temp\imdb\search.py", line 50, in searchKey
+    return json.dumps(movies)
+  File "c:\users\administrator\python\python37\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Movie is not JSON serializable
+
+
+[2019-12-09 18:28:21] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 102, in searchMovie
+    searchResults(searchKey(key))
+  File "c:/temp/imdb/app.py", line 107, in searchResults
+    browser.ExecuteFunction("searchResults", movies)
+  File "browser.pyx", line 407, in cefpython_py37.PyBrowser.ExecuteFunction
+  File "frame.pyx", line 162, in cefpython_py37.PyFrame.ExecuteFunction
+  File "c:\users\administrator\python\python37\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Movie is not JSON serializable
+
+
+[2019-12-09 18:35:01] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 107, in searchMovie
+    deleteResults()
+  File "c:/temp/imdb/app.py", line 92, in deleteResults
+    browser.ExecuteFunction(deleteResults)
+  File "browser.pyx", line 407, in cefpython_py37.PyBrowser.ExecuteFunction
+  File "frame.pyx", line 158, in cefpython_py37.PyFrame.ExecuteFunction
+TypeError: unsupported operand type(s) for +: 'function' and 'str'
+
+
+[2019-12-09 18:35:49] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 108, in searchMovie
+    searchResults(searchKey(key))
+  File "c:/temp/imdb/app.py", line 113, in searchResults
+    browser.ExecuteFunction("searchResults", movies)
+  File "browser.pyx", line 407, in cefpython_py37.PyBrowser.ExecuteFunction
+  File "frame.pyx", line 162, in cefpython_py37.PyFrame.ExecuteFunction
+  File "c:\users\administrator\python\python37\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "c:\users\administrator\python\python37\Lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Movie is not JSON serializable
+
+
+[2019-12-09 18:37:12] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 109, in searchMovie
+    searchResults(movie)
+  File "c:/temp/imdb/app.py", line 113, in searchResults
+    browser.ExecuteFunction("searchResults", movie.movieId, movie.name,
+NameError: name 'movie' is not defined
+
+
+[2019-12-10 09:33:03] Traceback (most recent call last):
+  File "lifespan_handler.pyx", line 90, in cefpython_py37.LifespanHandler_OnAfterCreated
+  File "c:/temp/imdb/app.py", line 124, in OnAfterCreated
+    js_print(browser, "Python", "OnAfterCreated",
+NameError: name 'js_print' is not defined
+
+
+[2019-12-10 09:33:32] Traceback (most recent call last):
+  File "load_handler.pyx", line 20, in cefpython_py37.LoadHandler_OnLoadingStateChange
+  File "c:/temp/imdb/app.py", line 135, in OnLoadingStateChange
+    js_print(browser, "Python", "OnLoadingStateChange",
+NameError: name 'js_print' is not defined
+
+
+[2019-12-10 09:33:57] Traceback (most recent call last):
+  File "load_handler.pyx", line 20, in cefpython_py37.LoadHandler_OnLoadingStateChange
+  File "c:/temp/imdb/app.py", line 132, in OnLoadingStateChange
+    js_print(browser, "Python", "OnLoadingStateChange",
+NameError: name 'js_print' is not defined
+
+
+[2019-12-10 09:35:12] Traceback (most recent call last):
+  File "c:/temp/imdb/app.py", line 123, in <module>
+    main()
+  File "c:/temp/imdb/app.py", line 31, in main
+    set_global_handler()
+  File "c:/temp/imdb/app.py", line 58, in set_global_handler
+    global_handler = GlobalHandler()
+NameError: name 'GlobalHandler' is not defined
+
+
+[2019-12-10 09:35:24] Traceback (most recent call last):
+  File "c:/temp/imdb/app.py", line 136, in <module>
+    main()
+  File "c:/temp/imdb/app.py", line 36, in main
+    set_client_handlers(myBrowser)
+  File "c:/temp/imdb/app.py", line 64, in set_client_handlers
+    client_handlers = [LoadHandler(), DisplayHandler()]
+NameError: name 'LoadHandler' is not defined
+
+
+[2019-12-10 15:00:34] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 112, in searchMore
+    page += 1
+UnboundLocalError: local variable 'page' referenced before assignment
+
+
+[2019-12-10 15:05:56] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 114, in searchMore
+    print("Sayfa:" + page)
+TypeError: can only concatenate str (not "int") to str
+
+
+[2019-12-10 15:34:50] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 112, in topList
+    if(topCount < len(movies-5)):
+TypeError: unsupported operand type(s) for -: 'list' and 'int'
+
+
+[2019-12-11 13:36:06] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+TypeError: getComments() missing 1 required positional argument: 'year'
+
+
+[2019-12-11 14:09:31] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 104, in getComments
+    comments = findComments(url)
+  File "c:\temp\imdb\comment.py", line 33, in findComments
+    browser.get(url)
+  File "C:\temp\p3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\temp\p3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\temp\p3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 208, in check_response
+    raise exception_class(value)
+selenium.common.exceptions.WebDriverException: Message: Missing Command Parameter - {"headers":{"Accept":"application/json","Accept-Encoding":"identity","Content-Length":"66","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:56013","User-Agent":"selenium/3.141.0 (python windows)"},"httpVersion":"1.1","method":"POST","post":"{\"url\": null, \"sessionId\": \"b47ec5d0-1c06-11ea-8168-2d5b061558a3\"}","url":"/url","urlParsed":{"anchor":"","query":"","file":"url","directory":"/","path":"/url","relative":"/url","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/url","queryKey":{},"chunks":["url"]},"urlOriginal":"/session/b47ec5d0-1c06-11ea-8168-2d5b061558a3/url"}
+
+
+
+[2019-12-11 14:20:59] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 118, in downloadSubtitle
+    download(movieId, movieName)
+  File "c:\temp\imdb\subtitle.py", line 37, in downloadSubtitle
+    url = getMovieUrl(movieId)
+  File "c:\temp\imdb\subtitle.py", line 11, in getMovieUrl
+    url = source[0].find('a').get('href')
+IndexError: list index out of range
+
+
+[2019-12-11 14:24:13] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 122, in downloadTorrent
+    downloadMovie(movieId)
+  File "c:\temp\imdb\downloadMovie.py", line 15, in downloadMovie
+    magnet = td[1].findAll('a')[1].get('href')
+IndexError: list index out of range
+
+
+[2019-12-11 14:50:28] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 121, in downloadSubtitle
+    OK = download(movieId, movieName)
+  File "c:\temp\imdb\subtitle.py", line 46, in downloadSubtitle
+    printError("Altyazı bulunamadı.")
+NameError: name 'printError' is not defined
+
+
+[2019-12-11 16:00:14] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 110, in getComments
+    comments = getComments(movieId)
+  File "c:/temp/imdb/app.py", line 110, in getComments
+    comments = getComments(movieId)
+  File "c:/temp/imdb/app.py", line 110, in getComments
+    comments = getComments(movieId)
+  [Previous line repeated 988 more times]
+  File "c:/temp/imdb/app.py", line 104, in getComments
+    browser.ExecuteFunction("deleteComments")
+  File "browser.pyx", line 407, in cefpython_py37.PyBrowser.ExecuteFunction
+  File "frame.pyx", line 164, in cefpython_py37.PyFrame.ExecuteFunction
+  File "frame.pyx", line 168, in cefpython_py37.PyFrame.ExecuteJavascript
+  File "string_utils.pyx", line 125, in cefpython_py37.PyToCefStringValue
+  File "string_utils.pyx", line 113, in cefpython_py37.PyToCefString
+RecursionError: maximum recursion depth exceeded while calling a Python object
+
+
+[2019-12-11 16:01:02] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 110, in getComments
+    comments = getMovieComments(movieId)
+  File "c:\temp\imdb\comment.py", line 51, in getMovieComments
+    allCommentsLink = commentDiv[0].findAll('span',
+IndexError: list index out of range
+
+
+[2019-12-11 16:02:17] Traceback (most recent call last):
+  File "v8function_handler.pyx", line 48, in cefpython_py37.V8FunctionHandler_Execute
+  File "c:/temp/imdb/app.py", line 110, in getComments
+    comments = getMovieComments(movieId)
+  File "c:\temp\imdb\comment.py", line 52, in getMovieComments
+    allCommentsLink = commentDiv[0].findAll('span',
+IndexError: list index out of range
+

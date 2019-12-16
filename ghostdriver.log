@@ -1,0 +1,30 @@
+[INFO  - 2019-12-11T12:00:33.142Z] GhostDriver - Main - running on port 60702
+[INFO  - 2019-12-11T12:00:37.552Z] Session [d82fb820-1c0d-11ea-8173-e94f141940df] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-12-11T12:00:37.553Z] Session [d82fb820-1c0d-11ea-8173-e94f141940df] - page.customHeaders:  - {}
+[INFO  - 2019-12-11T12:00:37.553Z] Session [d82fb820-1c0d-11ea-8173-e94f141940df] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-12-11T12:00:37.553Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d82fb820-1c0d-11ea-8173-e94f141940df
+[ERROR - 2019-12-11T12:00:39.655Z] Session [d82fb820-1c0d-11ea-8173-e94f141940df] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'a.h.load()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-12-11T12:00:39.655Z] Session [d82fb820-1c0d-11ea-8173-e94f141940df] - page.onError - stack:
+  Y (https://imasdk.googleapis.com/js/sdkloader/ima3.js:382)
+  initialize (https://simg01.imgsinemalar.com/js/player1575294147.min.js:313)
+  setup (https://simg01.imgsinemalar.com/js/player1575294147.min.js:390)
+  NoktaPlayer (https://simg01.imgsinemalar.com/js/player1575294147.min.js:551)
+  (anonymous function) (https://www.sinemalar.com/film/27746/recep-ivedik:1086)
+  n (https://simg01.imgsinemalar.com/js/movie.index1575294147.min.js:3)
+  fireWith (https://simg01.imgsinemalar.com/js/movie.index1575294147.min.js:3)
+  w (https://simg01.imgsinemalar.com/js/movie.index1575294147.min.js:4)
+  onreadystatechange (https://simg01.imgsinemalar.com/js/movie.index1575294147.min.js:4)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-12-11T12:00:40.723Z] Session [d82fb820-1c0d-11ea-8173-e94f141940df] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'window.performance.getEntriesByType("resource")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-12-11T12:00:40.723Z] Session [d82fb820-1c0d-11ea-8173-e94f141940df] - page.onError - stack:
+  computeTimeToFirstByte (https://static.criteo.net/js/ld/publishertag.js:1)
+  finish (https://static.criteo.net/js/ld/publishertag.js:1)
+  (anonymous function) (https://static.criteo.net/js/ld/publishertag.js:1)
+  onload (https://static.criteo.net/js/ld/publishertag.js:1)
+
+  phantomjs://platform/console++.js:263 in error
